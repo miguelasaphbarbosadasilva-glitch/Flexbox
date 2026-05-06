@@ -1,1 +1,24 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* centraliza horizontal */
+    align-items: center;     /* centraliza vertical */
+}
 
+.container {
+    display: flex;
+    gap: 20px; /* espaçamento entre as caixas */
+}
+
+.caixa {
+    width: 120px;
+    height: 120px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
